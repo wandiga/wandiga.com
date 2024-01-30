@@ -1449,10 +1449,6 @@ video {
   gap: 0.125rem;
 }
 
-.gap-10 {
-  gap: 2.5rem;
-}
-
 .gap-12 {
   gap: 3rem;
 }
@@ -1970,19 +1966,14 @@ video {
   background-color: rgb(255 0 0 / var(--tw-bg-opacity));
 }
 
-.bg-brand {
-  --tw-bg-opacity: 1;
-  background-color: rgb(255 74 1 / var(--tw-bg-opacity));
-}
-
 .bg-emerald-500 {
   --tw-bg-opacity: 1;
   background-color: rgb(16 185 129 / var(--tw-bg-opacity));
 }
 
-.bg-neutral-800 {
+.bg-neutral-700 {
   --tw-bg-opacity: 1;
-  background-color: rgb(38 38 38 / var(--tw-bg-opacity));
+  background-color: rgb(64 64 64 / var(--tw-bg-opacity));
 }
 
 .bg-neutral-900 {
@@ -1998,11 +1989,6 @@ video {
 .bg-slate-200 {
   --tw-bg-opacity: 1;
   background-color: rgb(226 232 240 / var(--tw-bg-opacity));
-}
-
-.bg-neutral-700 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(64 64 64 / var(--tw-bg-opacity));
 }
 
 .bg-white {
@@ -2157,16 +2143,6 @@ video {
   padding-bottom: 0.5rem;
 }
 
-.py-20 {
-  padding-top: 5rem;
-  padding-bottom: 5rem;
-}
-
-.py-5 {
-  padding-top: 1.25rem;
-  padding-bottom: 1.25rem;
-}
-
 .pt-10 {
   padding-top: 2.5rem;
 }
@@ -2277,10 +2253,6 @@ video {
   font-weight: 700;
 }
 
-.font-light {
-  font-weight: 300;
-}
-
 .font-medium {
   font-weight: 500;
 }
@@ -2361,20 +2333,12 @@ video {
   font-variant-numeric: var(--tw-ordinal) var(--tw-slashed-zero) var(--tw-numeric-figure) var(--tw-numeric-spacing) var(--tw-numeric-fraction);
 }
 
-.leading-loose {
-  line-height: 2;
-}
-
 .leading-none {
   line-height: 1;
 }
 
 .leading-normal {
   line-height: 1.5;
-}
-
-.leading-6 {
-  line-height: 1.5rem;
 }
 
 .tracking-wide {
@@ -2419,14 +2383,14 @@ video {
   color: rgb(64 64 64 / var(--tw-text-opacity));
 }
 
-.text-white {
-  --tw-text-opacity: 1;
-  color: rgb(255 255 255 / var(--tw-text-opacity));
-}
-
 .text-neutral-950 {
   --tw-text-opacity: 1;
   color: rgb(10 10 10 / var(--tw-text-opacity));
+}
+
+.text-white {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
 .underline {
@@ -2443,10 +2407,6 @@ video {
 
 .no-underline {
   text-decoration-line: none;
-}
-
-.decoration-white {
-  text-decoration-color: #fff;
 }
 
 .decoration-solid {
@@ -2822,11 +2782,6 @@ video {
   color: rgb(255 74 1 / var(--tw-text-opacity));
 }
 
-.hover\:text-neutral-950:hover {
-  --tw-text-opacity: 1;
-  color: rgb(10 10 10 / var(--tw-text-opacity));
-}
-
 .hover\:text-white:hover {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
@@ -2895,11 +2850,6 @@ video {
     padding-bottom: 2.5rem;
   }
 
-  .md\:py-5 {
-    padding-top: 1.25rem;
-    padding-bottom: 1.25rem;
-  }
-
   .md\:pt-20 {
     padding-top: 5rem;
   }
@@ -2910,10 +2860,6 @@ video {
 }
 
 @media (min-width: 1024px) {
-  .lg\:flex-row {
-    flex-direction: row;
-  }
-
   .lg\:gap-32 {
     gap: 8rem;
   }
@@ -2940,16 +2886,6 @@ video {
   .lg\:py-10 {
     padding-top: 2.5rem;
     padding-bottom: 2.5rem;
-  }
-
-  .lg\:py-5 {
-    padding-top: 1.25rem;
-    padding-bottom: 1.25rem;
-  }
-
-  .lg\:py-20 {
-    padding-top: 5rem;
-    padding-bottom: 5rem;
   }
 
   .lg\:pt-20 {
@@ -2998,16 +2934,6 @@ video {
   .xl\:py-10 {
     padding-top: 2.5rem;
     padding-bottom: 2.5rem;
-  }
-
-  .xl\:py-5 {
-    padding-top: 1.25rem;
-    padding-bottom: 1.25rem;
-  }
-
-  .xl\:py-20 {
-    padding-top: 5rem;
-    padding-bottom: 5rem;
   }
 
   .xl\:pt-20 {

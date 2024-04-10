@@ -4,7 +4,7 @@
 
 @layer base {
   h1 {
-    @apply text-center text-[40px] font-normal text-white lg:text-[44px] xl:text-[48px];
+    @apply text-center text-[2.5rem] font-normal leading-snug text-white lg:text-[2.75rem] xl:text-[3rem];
   }
 
   h2 {

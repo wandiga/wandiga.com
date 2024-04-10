@@ -8,7 +8,7 @@ module.exports = {
       },
 
       fontFamily: {
-        mono: "'Space Grotesk', Arial, mono",
+        SpaceGrotesk: "'Space Grotesk', Arial, mono",
       },
     },
   },

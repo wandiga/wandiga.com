@@ -1,3 +1,19 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  h1 {
+    @apply text-center text-[40px] font-normal text-white lg:text-[44px] xl:text-[48px];
+  }
+
+  h2 {
+    @apply text-xl font-medium leading-normal text-white;
+  }
+}
+
+@layer components {
+  .contact-link {
+    @apply text-center text-lg font-medium text-white hover:text-brand active:text-brand sm:text-left;
+  }
+}

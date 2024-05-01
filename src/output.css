@@ -2033,6 +2033,11 @@ h2 {
   border-color: rgb(23 23 23 / var(--tw-border-opacity));
 }
 
+.border-brand {
+  --tw-border-opacity: 1;
+  border-color: rgb(255 74 1 / var(--tw-border-opacity));
+}
+
 .bg-\[\#0F0F0F\] {
   --tw-bg-opacity: 1;
   background-color: rgb(15 15 15 / var(--tw-bg-opacity));

@@ -2145,6 +2145,10 @@ h2 {
           box-decoration-break: clone;
 }
 
+.bg-cover {
+  background-size: cover;
+}
+
 .bg-fixed {
   background-attachment: fixed;
 }
@@ -2172,6 +2176,10 @@ h2 {
 .bg-clip-text {
   -webkit-background-clip: text;
           background-clip: text;
+}
+
+.bg-center {
+  background-position: center;
 }
 
 .bg-repeat {

@@ -1526,6 +1526,10 @@ h2 {
   gap: 0.125rem;
 }
 
+.gap-12 {
+  gap: 3rem;
+}
+
 .gap-16 {
   gap: 4rem;
 }
@@ -1552,10 +1556,6 @@ h2 {
 
 .gap-6 {
   gap: 1.5rem;
-}
-
-.gap-12 {
-  gap: 3rem;
 }
 
 .gap-\[24px\] {
@@ -2018,11 +2018,6 @@ h2 {
   border-style: none;
 }
 
-.border-brand {
-  --tw-border-opacity: 1;
-  border-color: rgb(255 74 1 / var(--tw-border-opacity));
-}
-
 .border-neutral-700 {
   --tw-border-opacity: 1;
   border-color: rgb(64 64 64 / var(--tw-border-opacity));
@@ -2073,22 +2068,22 @@ h2 {
   background-color: rgb(10 10 10 / var(--tw-bg-opacity));
 }
 
-.bg-white {
-  --tw-bg-opacity: 1;
-  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
-}
-
 .bg-slate-200 {
   --tw-bg-opacity: 1;
   background-color: rgb(226 232 240 / var(--tw-bg-opacity));
 }
 
-.bg-opacity-20 {
-  --tw-bg-opacity: 0.2;
+.bg-white {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
 .bg-opacity-10 {
   --tw-bg-opacity: 0.1;
+}
+
+.bg-opacity-20 {
+  --tw-bg-opacity: 0.2;
 }
 
 .bg-gradient-to-r {
@@ -2320,6 +2315,15 @@ h2 {
   font-family: 'Space Grotesk', Arial, mono;
 }
 
+.font-mono {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+}
+
+.text-4xl {
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+}
+
 .text-base {
   font-size: 1rem;
   line-height: 1.5rem;
@@ -2424,6 +2428,10 @@ h2 {
   font-variant-numeric: var(--tw-ordinal) var(--tw-slashed-zero) var(--tw-numeric-figure) var(--tw-numeric-spacing) var(--tw-numeric-fraction);
 }
 
+.leading-loose {
+  line-height: 2;
+}
+
 .leading-none {
   line-height: 1;
 }
@@ -2454,6 +2462,11 @@ h2 {
   color: rgb(16 185 129 / var(--tw-text-opacity));
 }
 
+.text-neutral-300 {
+  --tw-text-opacity: 1;
+  color: rgb(212 212 212 / var(--tw-text-opacity));
+}
+
 .text-neutral-400 {
   --tw-text-opacity: 1;
   color: rgb(163 163 163 / var(--tw-text-opacity));
@@ -2462,6 +2475,11 @@ h2 {
 .text-neutral-500 {
   --tw-text-opacity: 1;
   color: rgb(115 115 115 / var(--tw-text-opacity));
+}
+
+.text-neutral-700 {
+  --tw-text-opacity: 1;
+  color: rgb(64 64 64 / var(--tw-text-opacity));
 }
 
 .text-neutral-950 {
@@ -3045,6 +3063,10 @@ h2 {
   .lg\:pt-32 {
     padding-top: 8rem;
   }
+
+  .lg\:text-\[32px\] {
+    font-size: 32px;
+  }
 }
 
 @media (min-width: 1280px) {
@@ -3084,6 +3106,11 @@ h2 {
 
   .xl\:pt-32 {
     padding-top: 8rem;
+  }
+
+  .xl\:text-4xl {
+    font-size: 2.25rem;
+    line-height: 2.5rem;
   }
 }
 
